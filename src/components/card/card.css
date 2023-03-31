@@ -1,0 +1,34 @@
+section{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(59, 57, 65);
+    width: 10%;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: sans-serif;
+
+}
+
+img{
+    border: rgba(188, 188, 188, 0.53) 1px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.info h1{
+    color: rgb(155, 108, 198);
+}
+
+.info p{
+    color: white;
+}
